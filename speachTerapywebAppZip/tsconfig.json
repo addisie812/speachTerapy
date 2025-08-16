@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es2020", // or "esnext" for the latest features
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true, // Allow JavaScript files to be part of the project
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true, // Enable all strict type-checking options
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true, // Do not emit output files (handled by bundler like Webpack/Vite)
+    "jsx": "react-jsx", // or "react" depending on your React version/setup
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true, // Each file is a separate module (important for some bundlers)
+    "incremental": true, // Enable incremental compilation for faster rebuilds
+    "outDir": "./dist" // Output directory for compiled files (if you were emitting)
+  },
+  "include": [
+    "src", // Include all files in the 'src' directory
+    "**/*.ts", // Include all .ts files
+    "**/*.tsx", // Include all .tsx files
+    "src/custom.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
