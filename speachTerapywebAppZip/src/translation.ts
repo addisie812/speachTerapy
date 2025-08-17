@@ -177,7 +177,112 @@ export interface Translation {
       twitter: string;
       instagram: string;
       linkedin: string;
-    }
+    };
+
+    // New Services
+    assessmentEvaluation: string;
+    assessmentEvaluationDesc: string;
+    earlyIntervention: string;
+    earlyInterventionDesc: string;
+    occupationalTherapy: string;
+    occupationalTherapyDesc: string;
+    playTherapy: string;
+    playTherapyDesc: string;
+    selfHelpSkills: string;
+    selfHelpSkillsDesc: string;
+    academicSkills: string;
+    academicSkillsDesc: string;
+    socialSkillsDevelopment: string;
+    socialSkillsDevelopmentDesc: string;
+    parentalTraining: string;
+    parentalTrainingDesc: string;
+    onlineTherapy: string;
+    onlineTherapyDesc: string;
+
+    // New About Options
+    workingHour: string;
+    locationMap: string;
+    partnership: string;
+    clickToSeeMap: string;
+
+    // New Appointment Options
+    appointmentForm: string;
+    otherOptions: string;
+    email: string;
+    whatsapp: string;
+    telegram: string;
+
+    // New Core Values
+    responsiveness: string;
+    responsivenessDesc: string;
+    integrity: string;
+    integrityDesc: string;
+    punctuality: string;
+    punctualityDesc: string;
+
+    // What We Do
+    whatWeDo: string;
+    assessmentEvaluationShort: string;
+    earlyInterventionShort: string;
+    speechLanguageTherapyShort: string;
+    abaTherapyShort: string;
+    occupationalTherapyShort: string;
+    playTherapyShort: string;
+    selfHelpSkillsShort: string;
+    academicSkillsShort: string;
+    socialSkillsDevelopmentShort: string;
+    parentalTrainingShort: string;
+    onlineTherapyShort: string;
+    multilingualSupportShort: string;
+
+    // Customer Feedback
+    customerFeedback: string;
+    submitFeedback: string;
+    comment: string;
+    optional: string;
+
+    // Workshop Registration
+    registerNow: string;
+    workshopRegistration: string;
+    fullName: string;
+    phoneNumber: string;
+    organization: string;
+    register: string;
+
+    // Program Features
+    individualTherapy: string;
+    individualTherapyDesc: string;
+
+    // Days of the week
+    monday: string;
+    tuesday: string;
+    wednesday: string;
+    thursday: string;
+    friday: string;
+    saturday: string;
+    sunday: string;
+
+    // Partnerships
+    ourPartners: string;
+
+    // Founded info
+    foundedIn: string;
+    founder: string;
+
+    // Resources submenu
+    parentGuide: string;
+    therapyTips: string;
+    developmentalMilestones: string;
+    homeActivities: string;
+    communicationStrategies: string;
+    behaviorManagement: string;
+
+    // Close button
+    close: string;
+
+    // Map and location
+    showMap: string;
+    hideMap: string;
   }
   
   export const translations: Record<'en' | 'am', Translation> = {
@@ -192,9 +297,9 @@ export interface Translation {
       contactUs: 'Contact Us',
       
       // Hero Section
-      heroHeadline: 'Empowering Communication,',
-      heroSubheadline: 'One Word at a Time',
-      heroDescription: 'Welcome to Right Choice Kids Therapy! We are dedicated to providing personalized, evidence-based speech and language services for children ages 2 to 12. Our team of certified therapists combines innovative techniques with compassionate, family-centered care to support your child’s unique communication journey. At Right Choice Kids Therapy, we help your child find their voice and build confidence every step of the way.',
+      heroHeadline: 'Unlocking Communication Skills',
+      heroSubheadline: 'Welcome to Right Choice Kids Therapy!',
+      heroDescription: 'We are dedicated to delivering personalized, evidence-based speech and language services for children. Our team of certified therapists blends innovative techniques with compassionate, family-centered care to support each child\'s unique communication journey. At Right Choice Kids Therapy, we empower your child to find their voice, build confidence, and thrive one step at a time.',
       bookAppointment: 'Book Appointment',
       ourServices: 'Our Services',
       
@@ -222,13 +327,13 @@ export interface Translation {
       
       // About Section
       aboutRightChoice: 'About Right Choice',
-      aboutDescription1: 'Right Choice Speech Therapy Center is a family-centered clinic committed to helping children with speech delays, autism, and other communication challenges reach their full potential. Located in Addis Ababa, Ethiopia, we proudly serve our community through two branches—one in Salitemihret and the other in Bole.',
+      aboutDescription1: 'Right Choice Kids Therapy Center is a family-centered clinic committed to helping children with speech delays, autism, and other communication challenges reach their full potential. Founded on June 30, 2022 by Dr. Yenigusnesh, we proudly serve our community through two branches—one in Salitemihret and the other in Bole.',
       aboutDescription2: 'We offer in-person, evidence-based speech therapy tailored to the unique strengths, needs, and cultural background of every child and family we work with.',
       mission: 'Mission',
-      missionText: 'To provide high-quality, culturally responsive, and family-centered speech therapy services that empower children and their families to overcome communication challenges and thrive in everyday life.',
+      missionText: 'To provide effective speech and language therapy services that enhance children\'s communication skills, enabling them to confidently express their thoughts, needs, and feelings, interact meaningfully with their families and communities, and prepare for academic success.',
       vision: 'Vision',
-      visionText: 'To become the most trusted and accessible speech therapy center in Ethiopia—transforming lives by unlocking each child\'s communication potential and guiding families through every stage of their journey.',
-      values: 'Values',
+      visionText: 'To create a society where all children, regardless of their speech and language abilities, can reach their full potential and communicate effectively with others.',
+      values: 'Core Values',
       compassionEmpathy: 'Compassion & Empathy',
       childCenteredCare: 'Child-Centered Care',
       excellenceInnovation: 'Excellence & Innovation',
@@ -239,7 +344,7 @@ export interface Translation {
       servicesSubtitle: 'We provide comprehensive, evidence-based speech and language services tailored to each child\'s unique needs with culturally responsive and family-centered care.',
       speechLanguageTherapy: 'Speech & Language Therapy',
       speechDelayTherapy: 'Speech Delay Therapy with personalized treatment plans',
-      speechDelayTherapyDesc: 'Speech Delay Therapy with personalized treatment plans',
+      speechDelayTherapyDesc: 'Individualized therapy to improve speech clarity, language comprehension, vocabulary, and effective communication skills, tailored to each child\'s abilities and goals.',
       stutteringVoiceDisorders: 'Stuttering, voice disorders, and speech sound disorders',
       stutteringVoiceDisordersDesc: 'Stuttering, voice disorders, and speech sound disorders',
       literacyReadingSupport: 'Literacy & Reading Support through phonological awareness',
@@ -249,7 +354,7 @@ export interface Translation {
       
       behavioralSocialSkills: 'Behavioral & Social Skills',
       abaTherapy: 'ABA Therapy for Autism Spectrum Disorder',
-      abaTherapyDesc: 'ABA Therapy for Autism Spectrum Disorder',
+      abaTherapyDesc: 'An evidence-based approach focused on improving behavior, learning skills, and social interactions, commonly used for children with autism spectrum disorder and related challenges.',
       socialSkillsTraining: 'Social Skills Training for peer interaction',
       socialSkillsTrainingDesc: 'Social Skills Training for peer interaction',
       emotionalRegulation: 'Emotional regulation and adaptive behaviors',
@@ -266,7 +371,7 @@ export interface Translation {
       elementaryDesc: 'Addressing complex language, articulation, and literacy skills',
       
       multilingualSupport: 'Multilingual Support',
-      multilingualSupportDesc: 'We provide culturally sensitive services in multiple languages:',
+      multilingualSupportDesc: 'Delivering therapy in your child\'s native language—Amharic, English, Afaan Oromo, Somali, and Tigrigna—whenever possible. We respect cultural and linguistic preferences to create a comfortable and effective learning environment.',
       
       // Appointment Form
       bookYourAppointment: 'Book Your Appointment',
@@ -338,11 +443,11 @@ export interface Translation {
       boleBranch: 'Bole Branch',
       boleLocation: 'Bole Sub-City',
       contactInfo: 'Contact Info',
-      workingHours: 'Mon-Sat: 8AM-5PM',
+      workingHours: 'Mon-Sun: 8AM-8PM',
       privacyPolicy: 'Privacy Policy',
       termsOfService: 'Terms of Service',
       contact: 'Contact',
-      copyright: '2024 Right Choice Speech Therapy Center. All rights reserved.',
+      copyright: '2024 Right Choice Kids Therapy Center. All rights reserved.',
       
       // Form validation
       thankYouMessage: 'Thank you! We will contact you soon to confirm your appointment.',
@@ -359,6 +464,111 @@ export interface Translation {
       
       // Age options
       years: 'years',
+
+      // New Services
+      assessmentEvaluation: 'Assessment and Evaluation',
+      assessmentEvaluationDesc: 'Comprehensive evaluations to identify your child\'s unique communication, behavioral, and developmental needs. This forms the foundation for creating a personalized therapy plan.',
+      earlyIntervention: 'Early Intervention Services',
+      earlyInterventionDesc: 'Specialized support for infants and toddlers (typically under age 3) showing developmental delays. These services promote early communication and social skills to set a strong foundation for future growth.',
+      occupationalTherapy: 'Occupational Therapy',
+      occupationalTherapyDesc: 'Helping children develop essential daily living skills, fine motor coordination, sensory integration, and independence to participate fully in everyday activities.',
+      playTherapy: 'Play Therapy',
+      playTherapyDesc: 'Using structured play to support emotional expression, problem-solving skills, and social development within a safe and supportive environment.',
+      selfHelpSkills: 'Self-Help Skills Support',
+      selfHelpSkillsDesc: 'Teaching practical skills such as dressing, eating, personal hygiene, and other activities that foster independence and confidence in daily life.',
+      academicSkills: 'Academic Skills Support',
+      academicSkillsDesc: 'Providing targeted assistance to strengthen foundational skills like reading, writing, math, and concentration, preparing children for academic success.',
+      socialSkillsDevelopment: 'Social Skills Development',
+      socialSkillsDevelopmentDesc: 'Helping children learn to interact positively with peers and adults, develop empathy, share, take turns, and build meaningful relationships.',
+      parentalTraining: 'Parental and Caregiver Training',
+      parentalTrainingDesc: 'Empowering families with knowledge, strategies, and tools to support their child\'s progress at home and in daily routines, fostering a collaborative therapy experience.',
+      onlineTherapy: 'Online / Teletherapy Services',
+      onlineTherapyDesc: 'Offering convenient and secure therapy sessions via video calls to ensure continuity of care regardless of location or scheduling challenges.',
+
+      // New About Options
+      workingHour: 'Working Hours',
+      locationMap: 'Location Map',
+      partnership: 'Partnership',
+      clickToSeeMap: 'Click to see the map',
+
+      // New Appointment Options
+      appointmentForm: 'Appointment Form',
+      otherOptions: 'Other Options',
+      email: 'Email',
+      whatsapp: 'WhatsApp',
+      telegram: 'Telegram',
+
+      // New Core Values
+      responsiveness: 'Responsiveness',
+      responsivenessDesc: 'We respond promptly to families\' needs and concerns, ensuring timely communication and support throughout the therapy journey.',
+      integrity: 'Integrity',
+      integrityDesc: 'We maintain the highest ethical standards in all our interactions, building trust through honest, transparent, and reliable service.',
+      punctuality: 'Punctuality',
+      punctualityDesc: 'We respect families\' time by maintaining consistent schedules and being punctual for all appointments and commitments.',
+
+      // What We Do
+      whatWeDo: 'What We Do',
+      assessmentEvaluationShort: 'Complete check-ups to understand your child\'s needs',
+      earlyInterventionShort: 'Special help for babies and toddlers who need extra support',
+      speechLanguageTherapyShort: 'Helping children speak clearly and understand better',
+      abaTherapyShort: 'Teaching good behaviors and social skills',
+      occupationalTherapyShort: 'Learning daily life skills like eating and dressing',
+      playTherapyShort: 'Using fun games to help children express feelings',
+      selfHelpSkillsShort: 'Teaching independence in daily activities',
+      academicSkillsShort: 'Getting ready for school success',
+      socialSkillsDevelopmentShort: 'Learning to make friends and play together',
+      parentalTrainingShort: 'Teaching families how to help at home',
+      onlineTherapyShort: 'Therapy sessions through video calls',
+      multilingualSupportShort: 'Services in your native language',
+
+      // Customer Feedback
+      customerFeedback: 'Customer Feedback',
+      submitFeedback: 'Submit Feedback',
+      comment: 'Comment',
+      optional: 'Optional',
+
+      // Workshop Registration
+      registerNow: 'Register Now',
+      workshopRegistration: 'Workshop Registration',
+      fullName: 'Full Name',
+      phoneNumber: 'Phone Number',
+      organization: 'Organization',
+      register: 'Register',
+
+      // Program Features
+      individualTherapy: 'Individual Therapy Options',
+      individualTherapyDesc: 'Personalized one-on-one sessions',
+
+      // Days of the week
+      monday: 'Monday',
+      tuesday: 'Tuesday',
+      wednesday: 'Wednesday',
+      thursday: 'Thursday',
+      friday: 'Friday',
+      saturday: 'Saturday',
+      sunday: 'Sunday',
+
+      // Partnerships
+      ourPartners: 'Our Partners',
+
+      // Founded info
+      foundedIn: 'Founded in 2022',
+      founder: 'Founded by Dr. Yenigusnesh',
+
+      // Resources submenu
+      parentGuide: 'Parent Guide',
+      therapyTips: 'Therapy Tips',
+      developmentalMilestones: 'Developmental Milestones',
+      homeActivities: 'Home Activities',
+      communicationStrategies: 'Communication Strategies',
+      behaviorManagement: 'Behavior Management',
+
+      // Close button
+      close: 'Close',
+
+      // Map and location
+      showMap: 'Show Map',
+      hideMap: 'Hide Map',
     },
     
     am: {
@@ -372,9 +582,9 @@ export interface Translation {
       contactUs: 'እኛን ለማግኘት',
       
       // Hero Section
-      heroHeadline: 'ግንኙነትን ማጠናከር፣',
-      heroSubheadline: 'አንድ ቃል በአንድ ጊዜ',
-      heroDescription: 'ወደ ራይት ቾይስ የልጆች የንግግር ሕክምና ማዕከል እንኳን በደህና መጡ። ከ2 እስከ 12 አመት ለሆኑ ህጻናት ግላዊነትን የተላበሰ፣ በማስረጃ ላይ የተመሰረተ የንግግር እና ቋንቋ አገልግሎቶችን ለመስጠት ቆርጠን ተነስተናል። የኛ የተመሰከረላቸው ቴራፒስቶች ቡድን የልጅዎን ልዩ የግንኙነት ጉዞ ለመደገፍ የፈጠራ ቴክኒኮችን ከርህራሄ እና ቤተሰብን ያማከለ እንክብካቤ ያጣምራል። በ ራይት ቾይስ የልጆች የንግግር ሕክምና ማዕከል፣ ልጅዎ ድምጹን እንዲያገኝ እና በእያንዳንዱ ደረጃ በራስ መተማመንን እንዲገነቡ እናግዛለን።',
+      heroHeadline: 'የልጆችን የመግባቢያ ክህሎት ማጎልበት',
+      heroSubheadline: 'ወደ ትክክለኛው ምርጫ የንግግር ህክምና ማዕከል እንኳን ደህና መጡ!',
+      heroDescription: 'በማዕከላችን፣ ልጆቻችሁ የራሳቸውን ድምፅ እንዲያገኙ፣ በራሳቸው እንዲተማመኑ እና ሙሉ አቅማቸውን ተጠቅመው እንዲያድጉ ለመርዳት ቆርጠን ተነስተናል። ለእያንዳንዱ ልጅ ልዩ ፍላጎት እና ሁኔታ የሚስማማ ግላዊ የሕክምና እቅድ በማዘጋጀት፣ ልጆችን ማዕከል ያደረገ እንክብካቤ እንሰጣለን። በተግባር ውጤታማነታቸው በተረጋገጡ ዘመናዊና ሳይንሳዊ ዘዴዎች በመታገዝ፣ ከወላጆች ጋር በትብብር እና በሙሉ ርህራሄ እንሰራለን። ዋናው ግባችን ልጆቻችሁ በልበ ሙሉነት እንዲናገሩና እንዲግባቡ በማድረግ የተሻለ የወደፊት ሕይወት እንዲኖራቸው ማገዝ ነው።',
       bookAppointment: 'ቀጠሮ ይያዙ',
       ourServices: 'አገልግሎቶቻችን',
       
@@ -402,13 +612,13 @@ export interface Translation {
       
       // About Section
       aboutRightChoice: 'ስለ ራይት ቾይስ',
-      aboutDescription1: 'ራይት ቾይስ የንግግር ሕክምና ማዕከል የንግግር መዘግየት፣ አውቲዝም እና ሌሎች የግንኙነት ችግሮች ያላቸው ልጆች ሙሉ አቅማቸውን እንዲደርሱ ለመርዳት የተቆረጠ በቤተሰብ ላይ ያተኮረ ክሊኒክ ነው። በአዲስ አበባ፣ ኢትዮጵያ የሚገኝ ሲሆን በሁለት ቅርንጫፎች - አንዱ በሳሊተሚህረት እና ሌላው በቦሌ - ማህበረሰባችንን በኩራት እናገለግላለን።',
+      aboutDescription1: 'ራይት ቾይስ የልጆች የንግግር ሕክምና ማዕከል የንግግር መዘግየት፣ አውቲዝም እና ሌሎች የግንኙነት ችግሮች ያላቸው ልጆች ሙሉ አቅማቸውን እንዲደርሱ ለመርዳት የተቆረጠ በቤተሰብ ላይ ያተኮረ ክሊኒክ ነው። በሰኔ 30፣ 2022 በዶክተር የኒጉስነሽ የተመሰረተ ሲሆን በሁለት ቅርንጫፎች - አንዱ በሳሊተሚህረት እና ሌላው በቦሌ - ማህበረሰባችንን በኩራት እናገለግላለን።',
       aboutDescription2: 'ከእያንዳንዱ ልጅ እና ቤተሰብ ልዩ ጥንካሬዎች፣ ፍላጎቶች እና ባህላዊ ዳራ ጋር የተጣጣመ በማስረጃ ላይ የተመሰረተ የንግግር ሕክምና እንሰጣለን።',
-      mission: 'ተልእኮ',
-      missionText: 'ልጆች እና ቤተሰቦቻቸው የግንኙነት ችግሮችን እንዲያሸንፉ እና በዕለት ተዕለት ሕይወት ውስጥ እንዲበለጽጉ የሚያስችል የሚያስችል ከፍተኛ ጥራት ያለው፣ ባህላዊ ምላሽ ሰጪ እና በቤተሰብ ላይ ያተኮረ የንግግር ሕክምና አገልግሎት መስጠት።',
+      mission: 'ተልዕኮ',
+      missionText: 'የህጻናትን የመግባባት ችሎታ ለማሻሻል ውጤታማ የንግግር እና የቋንቋ ህክምና አገልግሎት በመስጠት ህጻናት ሀሳባቸውን፣ ፍላጎቶቻቸውን እና ስሜቶቻቸውን በልበ ሙሉነት እንዲገልጹ፣ ከቤተሰቦቻቸው እና ከማህበረሰቡ ጋር በብቃት እንዲግባቡ እንዲሁም ለትምህርት ስኬት እንዲዘጋጁ መረዳት',
       vision: 'ራዕይ',
-      visionText: 'በኢትዮጵያ ውስጥ በጣም የታመነ እና ተደራሽ የንግግር ሕክምና ማዕከል መሆን - የእያንዳንዱን ልጅ የግንኙነት አቅም በመክፈት እና ቤተሰቦችን በእያንዳንዱ የጉዞ ደረጃ በመምራት ሕይወትን መለወጥ።',
-      values: 'እሴቶች',
+      visionText: 'ሁሉም ህጻናት የንግግር እና የቋንቋ ችሎታቸው ሳይገድባቸው ሙሉ አቅማቸውን የሚያሳዩበት እና ከማንም ጋር በቀላሉ የሚግባቡበትን ማህበረሰብ መፍጠር',
+      values: 'ዋና እሴቶች',
       compassionEmpathy: 'ርኅራኄ እና ተሳትፎ',
       childCenteredCare: 'በልጅ ላይ ያተኮረ እንክብካቤ',
       excellenceInnovation: 'ብልጽግና እና ፈጠራ',
@@ -419,7 +629,7 @@ export interface Translation {
       servicesSubtitle: 'ባህላዊ ምላሽ ሰጪ እና በቤተሰብ ላይ ያተኮረ እንክብካቤ ከእያንዳንዱ ልጅ ልዩ ፍላጎቶች ጋር የተጣጣመ አጠቃላይ፣ በማስረጃ ላይ የተመሰረተ የንግግር እና ቋንቋ አገልግሎቶችን እንሰጣለን።',
       speechLanguageTherapy: 'የንግግር እና ቋንቋ ሕክምና',
       speechDelayTherapy: 'ግላዊ የሕክምና እቅዶች ያለው የንግግር መዘግየት ሕክምና',
-      speechDelayTherapyDesc: 'ግላዊ የሕክምና እቅዶች ያለው የንግግር መዘግየት ሕክምና',
+      speechDelayTherapyDesc: 'የንግግር ግልጽነት፣ የቋንቋ ግንዛቤ፣ የቃላት ዝርዝር እና ውጤታማ የግንኙነት ክህሎቶችን ለማሻሻል ከእያንዳንዱ ልጅ ችሎታ እና ግቦች ጋር የተጣጣመ ግላዊ ሕክምና።',
       stutteringVoiceDisorders: 'መናገር፣ የድምጽ መታወክ እና የንግግር ድምጽ መታወክ',
       stutteringVoiceDisordersDesc: 'መናገር፣ የድምጽ መታወክ እና የንግግር ድምጽ መታወክ',
       literacyReadingSupport: 'በፎኖሎጂካል ግንዛቤ የማንበብ እና ጽሑፍ ድጋፍ',
@@ -429,7 +639,7 @@ export interface Translation {
       
       behavioralSocialSkills: 'ባህሪያዊ እና ማህበራዊ ክህሎቶች',
       abaTherapy: 'ለአውቲዝም ስፔክትረም መታወክ ABA ሕክምና',
-      abaTherapyDesc: 'ለአውቲዝም ስፔክትረም መታወክ ABA ሕክምና',
+      abaTherapyDesc: 'ባህሪ፣ የመማር ክህሎቶች እና ማህበራዊ መስተጋብርን ለማሻሻል ያተኮረ በማስረጃ ላይ የተመሰረተ አቀራረብ፣ በተለምዶ ለአውቲዝም ስፔክትረም መታወክ እና ተዛማጅ ተግዳሮቶች ያላቸው ልጆች ጥቅም ላይ ይውላል።',
       socialSkillsTraining: 'ለእኩዮች መስተጋብር ማህበራዊ ክህሎት ስልጠና',
       socialSkillsTrainingDesc: 'ለእኩዮች መስተጋብር ማህበራዊ ክህሎት ስልጠና',
       emotionalRegulation: 'ስሜታዊ ቁጥጥር እና መላመድ ባህሪያት',
@@ -446,7 +656,7 @@ export interface Translation {
       elementaryDesc: 'ውስብስብ ቋንቋ፣ አነጋገር እና የማንበብ ክህሎቶችን መፍታት',
       
       multilingualSupport: 'ባለብዙ ቋንቋ ድጋፍ',
-      multilingualSupportDesc: 'በብዙ ቋንቋዎች ባህላዊ ስሜት ያላቸው አገልግሎቶችን እንሰጣለን፡',
+      multilingualSupportDesc: 'በልጅዎ የአፍ መፍቻ ቋንቋ - አማርኛ፣ እንግሊዝኛ፣ አፋን ኦሮሞ፣ ሶማሊኛ እና ትግርኛ - በተቻለ መጠን ሕክምና መስጠት። ምቹ እና ውጤታማ የመማሪያ አካባቢ ለመፍጠር ባህላዊ እና ቋንቋዊ ምርጫዎችን እናከብራለን።',
       
       // Appointment Form
       bookYourAppointment: 'ቀጠሮዎን ይያዙ',
@@ -518,11 +728,11 @@ export interface Translation {
       boleBranch: 'ቦሌ ቅርንጫፍ',
       boleLocation: 'ቦሌ ክፍለ ከተማ',
       contactInfo: 'የመገናኛ መረጃ',
-      workingHours: 'ሰኞ-ቅዳሜ፡ ከ8፡00 ጠዋት - 5፡00 ከሰዓት',
+      workingHours: 'ሰኞ-እሁድ፡ ከ8፡00 ጠዋት - 8፡00 ምሽት',
       privacyPolicy: 'የግላዊነት ፖሊሲ',
       termsOfService: 'የአገልግሎት ውሎች',
       contact: 'ያግኙን',
-      copyright: '2024 ራይት ቾይስ የንግግር ሕክምና ማዕከል። ሁሉም መብቶች የተጠበቁ ናቸው።',
+      copyright: '2024 ራይት ቾይስ የልጆች የንግግር ሕክምና ማዕከል። ሁሉም መብቶች የተጠበቁ ናቸው።',
       
       // Form validation
       thankYouMessage: 'አመሰግናለሁ! ቀጠሮዎን ለማረጋገጥ በቅርቡ እናገኝዎታለን።',
@@ -539,5 +749,110 @@ export interface Translation {
       
       // Age options
       years: 'ዓመት',
+
+      // New Services
+      assessmentEvaluation: 'ምዘና እና ግምገማ',
+      assessmentEvaluationDesc: 'የልጅዎን ልዩ የግንኙነት፣ ባህሪያዊ እና የእድገት ፍላጎቶች ለመለየት አጠቃላይ ግምገማዎች። ይህ ግላዊ የሕክምና እቅድ ለመፍጠር መሰረት ይሆናል።',
+      earlyIntervention: 'ቀደምት ጣልቃ ገብነት አገልግሎቶች',
+      earlyInterventionDesc: 'የእድገት መዘግየት ላሳዩ ለሕፃናት እና ለትናንሽ ልጆች (በተለምዶ ከ3 ዓመት በታች) ልዩ ድጋፍ። እነዚህ አገልግሎቶች ለወደፊት እድገት ጠንካራ መሰረት ለመጣል ቀደምት የግንኙነት እና ማህበራዊ ክህሎቶችን ያበረታታሉ።',
+      occupationalTherapy: 'የሙያ ሕክምና',
+      occupationalTherapyDesc: 'ልጆች አስፈላጊ የዕለት ተዕለት የኑሮ ክህሎቶችን፣ ጥሩ የሞተር ቅንጅት፣ የስሜት ውህደት እና በዕለት ተዕለት እንቅስቃሴዎች ውስጥ ሙሉ በሙሉ ለመሳተፍ ነፃነት እንዲያዳብሩ መርዳት።',
+      playTherapy: 'የጨዋታ ሕክምና',
+      playTherapyDesc: 'በአስተማማኝ እና ደጋፊ አካባቢ ውስጥ ስሜታዊ መግለጫን፣ ችግር መፍታት ክህሎቶችን እና ማህበራዊ እድገትን ለመደገፍ የተዋቀረ ጨዋታ መጠቀም።',
+      selfHelpSkills: 'የራስ እርዳታ ክህሎቶች ድጋፍ',
+      selfHelpSkillsDesc: 'እንደ መልበስ፣ መብላት፣ የግል ንፅህና እና በዕለት ተዕለት ሕይወት ውስጥ ነፃነት እና በራስ መተማመንን የሚያሳድጉ ሌሎች እንቅስቃሴዎች ያሉ ተግባራዊ ክህሎቶችን ማስተማር።',
+      academicSkills: 'የአካዳሚክ ክህሎቶች ድጋፍ',
+      academicSkillsDesc: 'እንደ ማንበብ፣ መጻፍ፣ ሂሳብ እና ትኩረት ያሉ መሰረታዊ ክህሎቶችን ለማጠናከር ልጆችን ለአካዳሚክ ስኬት በማዘጋጀት ላይ ያተኮረ እርዳታ መስጠት።',
+      socialSkillsDevelopment: 'ማህበራዊ ክህሎቶች እድገት',
+      socialSkillsDevelopmentDesc: 'ልጆች ከእኩዮች እና ከአዋቂዎች ጋር በአዎንታዊ መንገድ እንዲገናኙ፣ ርኅራኄን እንዲያዳብሩ፣ እንዲካፈሉ፣ ተራ እንዲወስዱ እና ትርጉም ያላቸው ግንኙነቶችን እንዲገነቡ መርዳት።',
+      parentalTraining: 'የወላጆች እና የእንክብካቤ ሰጪዎች ስልጠና',
+      parentalTrainingDesc: 'ቤተሰቦችን በቤት እና በዕለት ተዕለት ሕይወት ውስጥ የልጃቸውን እድገት ለመደገፍ በእውቀት፣ ስልቶች እና መሳሪያዎች ማብቃት፣ የትብብር ሕክምና ልምድን ማሳደግ።',
+      onlineTherapy: 'የመስመር ላይ / የቴሌሕክምና አገልግሎቶች',
+      onlineTherapyDesc: 'የአካባቢ ወይም የጊዜ ሰሌዳ ተግዳሮቶች ሳይገድቡ የእንክብካቤ ቀጣይነት ለማረጋገጥ በቪዲዮ ጥሪዎች በኩል ምቹ እና አስተማማኝ የሕክምና ክፍለ ጊዜዎችን ማቅረብ።',
+
+      // New About Options
+      workingHour: 'የስራ ሰዓቶች',
+      locationMap: 'የአካባቢ ካርታ',
+      partnership: 'አጋርነት',
+      clickToSeeMap: 'ካርታውን ለማየት ይጫኑ',
+
+      // New Appointment Options
+      appointmentForm: 'የቀጠሮ ቅጽ',
+      otherOptions: 'ሌሎች አማራጮች',
+      email: 'ኢሜይል',
+      whatsapp: 'ዋትስአፕ',
+      telegram: 'ቴሌግራም',
+
+      // New Core Values
+      responsiveness: 'ምላሽ ሰጪነት',
+      responsivenessDesc: 'በሕክምና ጉዞ ውስጥ በጊዜ ግንኙነት እና ድጋፍ በማረጋገጥ ለቤተሰቦች ፍላጎቶች እና ጭንቀቶች በፍጥነት እንመልሳለን።',
+      integrity: 'ታማኝነት',
+      integrityDesc: 'በሁሉም መስተጋብሮቻችን ውስጥ ከፍተኛውን የሥነ ምግባር ደረጃ እንይዛለን፣ በታማኝ፣ ግልጽ እና አስተማማኝ አገልግሎት በኩል መተማመንን እንገነባለን።',
+      punctuality: 'ሰዓታዊነት',
+      punctualityDesc: 'ወጥ የሆነ የጊዜ ሰሌዳ በመጠበቅ እና ለሁሉም ቀጠሮዎች እና ቃል ኪዳኖች ሰዓታዊ በመሆን የቤተሰቦችን ጊዜ እናከብራለን።',
+
+      // What We Do
+      whatWeDo: 'የምንሰራው ስራ',
+      assessmentEvaluationShort: 'የልጅዎን ፍላጎት ለመረዳት ሙሉ ምርመራ',
+      earlyInterventionShort: 'ተጨማሪ ድጋፍ ለሚያስፈልጋቸው ሕፃናት እና ትናንሽ ልጆች ልዩ እርዳታ',
+      speechLanguageTherapyShort: 'ልጆች በግልጽ እንዲናገሩ እና በተሻለ እንዲረዱ መርዳት',
+      abaTherapyShort: 'ጥሩ ባህሪያትን እና ማህበራዊ ክህሎቶችን ማስተማር',
+      occupationalTherapyShort: 'እንደ መብላት እና መልበስ ያሉ የዕለት ተዕለት የኑሮ ክህሎቶችን መማር',
+      playTherapyShort: 'ልጆች ስሜቶቻቸውን እንዲገልጹ ለመርዳት አዝናኝ ጨዋታዎችን መጠቀም',
+      selfHelpSkillsShort: 'በዕለት ተዕለት እንቅስቃሴዎች ውስጥ ነፃነትን ማስተማር',
+      academicSkillsShort: 'ለትምህርት ቤት ስኬት ዝግጅት',
+      socialSkillsDevelopmentShort: 'ጓደኞችን መፍጠር እና አብሮ መጫወትን መማር',
+      parentalTrainingShort: 'ቤተሰቦች በቤት እንዴት እንደሚረዱ ማስተማር',
+      onlineTherapyShort: 'በቪዲዮ ጥሪዎች በኩል የሕክምና ክፍለ ጊዜዎች',
+      multilingualSupportShort: 'በእርስዎ የአፍ መፍቻ ቋንቋ አገልግሎቶች',
+
+      // Customer Feedback
+      customerFeedback: 'የደንበኞች አስተያየት',
+      submitFeedback: 'አስተያየት ይስጡ',
+      comment: 'አስተያየት',
+      optional: 'አማራጭ',
+
+      // Workshop Registration
+      registerNow: 'አሁን ይመዝገቡ',
+      workshopRegistration: 'የወርክሾፕ ምዝገባ',
+      fullName: 'ሙሉ ስም',
+      phoneNumber: 'የስልክ ቁጥር',
+      organization: 'ድርጅት',
+      register: 'ይመዝገቡ',
+
+      // Program Features
+      individualTherapy: 'የግለሰብ ሕክምና አማራጮች',
+      individualTherapyDesc: 'ግላዊ አንድ ለአንድ ክፍለ ጊዜዎች',
+
+      // Days of the week
+      monday: 'ሰኞ',
+      tuesday: 'ማክሰኞ',
+      wednesday: 'ረቡዕ',
+      thursday: 'ሐሙስ',
+      friday: 'አርብ',
+      saturday: 'ቅዳሜ',
+      sunday: 'እሁድ',
+
+      // Partnerships
+      ourPartners: 'አጋሮቻችን',
+
+      // Founded info
+      foundedIn: 'በ2022 የተመሰረተ',
+      founder: 'በዶክተር የኒጉስነሽ የተመሰረተ',
+
+      // Resources submenu
+      parentGuide: 'የወላጆች መመሪያ',
+      therapyTips: 'የሕክምና ምክሮች',
+      developmentalMilestones: 'የእድገት ምዕራፎች',
+      homeActivities: 'የቤት እንቅስቃሴዎች',
+      communicationStrategies: 'የግንኙነት ስልቶች',
+      behaviorManagement: 'የባህሪ አስተዳደር',
+
+      // Close button
+      close: 'ዝጋ',
+
+      // Map and location
+      showMap: 'ካርታ አሳይ',
+      hideMap: 'ካርታ ደብቅ',
     }
   };
